@@ -1,6 +1,7 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
+<<<<<<< HEAD
   user_id: 1
   book_id: 1
   review: MyText
@@ -8,4 +9,11 @@ one:
 two:
   user_id: 1
   book_id: 1
+=======
+  user_id: 
+  review: MyText
+
+two:
+  user_id: 
+>>>>>>> master
   review: MyText

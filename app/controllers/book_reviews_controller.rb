@@ -69,6 +69,10 @@ class BookReviewsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def book_review_params
+<<<<<<< HEAD
       params.require(:book_review).permit(:user_id, :book_id, :review)
+=======
+      params.require(:book_review).permit(:user_id, :review)
+>>>>>>> master
     end
 end
